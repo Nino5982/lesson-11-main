@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/homestyle.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-wrap">
+          <a href=""><img src="images/logo.svg" alt="" /></a>
+          <nav >
+            <ul class="navigation">
+              <li><a href="#" class="font-white-24-500 active">Home</a></li>
+              <li><a href="#" class="font-white-24-500">About US</a></li>
+              <li><a href="#" class="font-white-24-500">service</a></li>
+              <li><a href="#" class="font-white-24-500">project</a></li>
+            </ul> 
+          </nav>    
+          <form action="#">
+            <div class="contact ">
+                <select id="language" class="font-white-24-500" name="language">
+                <option value="Engliash">English</option>
+                <option value="Georgian">Georgian</option>
+                </select>
+                <input type="submit" class="font-white-24-500" value="Contact Us" />
+             </div>
+          </form>
+      </div>    
+    </header>
+    <main>
+      <section class="section-1">
+        <div class="section-1-wrap">
+          <div class="first-title">
+            <h2 class="font-64-600">
+              We Prepare For The <span class="title-span">Future</span>
+            </h2>
+            <p class="font-white-20-500">
+              We provide the best architectural design, contruction, and
+              building maintance services for you.
+            </p>
+          </div>
+            <button type="button" class="font-white-24-500">
+              Our Services
+              <img
+                class="centering-icons"
+                src="images/arrow-right-circle.svg"
+                alt=""
+              />
+            </button>
+            <button type="button" class="font-white-24-500" id="view-project-button">View Project</button>
+        </div>
+      </section>
+      <section class="section-2">
+        <div class="section-2-wrap">
+          <div class="sec-2-title">
+            <h2 class="font-64-600">Featured Project</h2>
+                <ul class="sec-2-list">
+                  <li><a class="active-black" href="">All Works</a></li>
+                  <li><a href="">Construction</a></li>
+                  <li><a href="">Architecture</a></li>
+                  <li><a href="">Building</a></li>
+                  <li><a href="">Renovations</a></li>
+                  <li><a href="">Interior</a></li>
+                </ul>
+          </div>
+          <div class="pic-block-wrap">
+            <!-- 1block -->
+            <div class="img-block block-1">
+              <div class="img-block-title">
+                <h3 class="font-white-24-500">Skyskuy Tower</h3>
+                <h4 class="font-white-20-500">Renovation & Architecture</h4>
+              </div>
+            </div>
+            <!-- 2block -->
+            <div class="img-block block-2">
+              <div class="img-block-title">
+                <h3 class="font-white-24-500">The Fallingwater House</h3>
+                <h4 class="font-white-20-500">Building & Interior</h4>
+              </div>
+            </div>
+            <!-- 3block -->
+            <div class="img-block block-3">
+              <div class="img-block-title">
+                <h3 class="font-white-24-500">The Orange Apartemen</h3>
+                <h4 class="font-white-20-500">Construction & Interior</h4>
+              </div>
+            </div>
+          </div>
+          <div class="all-projects-link">
+            <a href="#"
+              >Explore All Projects
+              <img
+                class="centering-icons"
+                src="images/circle-arrow-right-solid.svg"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section class="section-3">
+          <div class="section-3-wrap">
+            <div class="sec-3-title">
+              <h3 class="font-yelow-28-600">What Our Client Says</h3>
+              <p class="sec-3-p">
+                I am very satisfied with the services. Their team is very
+                professional and efficient in completing our project on time and
+                at a very affordable cost. The quality of their work is very good
+                and I highly recommend this company for any construction project.
+              </p>
+              <h3 class="font-white-20-500">Tom DeLonge</h3>
+              <h3 class="sec-3-par-3">CEO, Lexmark</h3>
+            </div>
+            <!-- forms -->
+            <form id="form-sec-3" action="/action_page.php">
+              <h2 class="form-3-title font-64-600" >Leading Way In Building & Civil Construction</h2>
+              <div class="sect-3-form">
+                <div class="form1-div">
+                  <!-- <div > -->
+                    <h4 class="first-form-heading font-white-24-500">Request A Quote</h4>
+                    <div class="inputs-div">
+                      <label class="font-20-400 first-form-label">
+                        Complete control over products allow us to our customers the
+                        best quality prices and services. We take great pride in
+                        everything that we do in Jhontraktor
+                      </label>
+                      <input type="text" id="name" name="name" value="Name" />
+                      <input type="email" id="email" name="email" value="email" />
+                      <input type="tel" id="phone" name="phone" value="phone" />
+                      <select name="serice" id="serice">
+                        <option value="">Select Your Service--</option>
+                      </select>
+                      <textarea rows="4" cols="50" name="comment" form="usrform">
+                        Additional Details!
+                      </textarea>
+                    </div>
+                    <input type="submit" id="submit-form" name="submit" value="Submit Request"/>
+                  <!-- </div> -->
+                </div>
+                <div class="second-form">
+                  <h4 class="font-white-24-500">Contact Info</h4>
+                  <ul class="contact-list">
+                    <li>
+                      <span>Our Location</span>
+                                  <a href="http://##" target="_blank">18 Office Park Building 21th Floor Unit C. Jl. TB Simatupang Kav. 18, Jakarta Selatan ,12520</a>
+                                </li>
+                                <li><span>Quick Contact</span>
+                                    <a href="callto:+6287724697" target="_blank">Call Us :(+62) 877-2469-7246</a>
+                                    <a href="mailto:contact@jhontraktor.com" target="_blank">Email : contact@jhontraktor.com</a>
+                                </li>
+                                <li>
+                                  <span>Opening Hours</span>
+                                  <p>Monday - Friday </p>
+                                  <p>09:00 AM - 06:00 PM</p>
+                                </li>
+                                <li>
+                                  <a href="http://#" target="_blank" >Do You Have Any Question, Just Contact Us To Get Help!</a>
+                                </li>
+                              </ul>
+                              <input type="submit" class="font-white-20-400" name="contact-us-form" value="Contact Us" />
+              </div>
+</div>
+            </form>
+          </div>
+      </section>
+    </main>
+<footer>
+  <div class="footer-wrap">
+<div class="ft-heading">
+  <a href="#"><img src="images/JHONTRAKTOR.svg" alt=""></a>
+  <form method="post">
+    <div class="ft-form">
+    <label class="font-20-400">
+      Subscribe To Our Newslatter :
+    </label>
+    <div class="ft-submit">
+      <input name="submitted-name" autocomplete="name" value="Enter your email addres" />
+      <img src="images/footer-icons/ArrowRight.svg" alt="">
+    </div>
+  </div>
+  </form>
+</div>
+<div class="ft-info">
+  <div class="about">
+  <h3>about us</h3>
+  <p>We have the confidence to provide the best service for you, with the support of Professional and Certified HR that we currently have and the high-quality materials we use and structured work techniques, we will be able to realize timely completion of work.</p>
+  </div>
+  <div class="office">
+    <h3>office</h3>
+    <p>18 Office Park Building 21th Floor Unit C.</p>
+  <p>Jl. TB Simatupang Kav. 18, Jakarta Selatan ,12520</p>
+  </div>
+  <div class="contact-info">
+    <h3>contact</h3>
+    <p>Email : contact@jhontracktor.co</p>
+    <p>Phone : (+62) 877-2469-7246</p>
+  </div>
+  <div class="link">
+    <h3>Link</h3>
+  <ul class="link-list">
+    <li>Home</li>
+    <li>about us</li>
+    <li>service</li>
+    <li>project</li>
+  </ul>
+</div>
+</div>
+<div class="icon-div">
+  <a href="#"><img src="images/footer-icons/linkedin.svg" alt=""></a>
+  <a href="#"><img src="images/footer-icons/Medium.svg" alt=""></a>
+  <a href="#"><img src="images/footer-icons/Instagram.svg" alt=""></a>
+  <a href="#"><img src="images/footer-icons/Twitter.svg" alt=""></a>
+  <a href="#"><img src="images/footer-icons/Facebook.svg" alt=""></a>
+</div>
+<div class="copyright">
+  <span>Copyright © 2023 CandyAP. All Rights Reserved</span>
+</div>
+</div>
+</footer>
+  </body>
+</html>
