@@ -125,6 +125,7 @@ input[type="submit"] {
   /* section 2 */
   .section-2 {
     background-color: #ff7420;
+     padding: 1em;
   }
   .section-2-wrap {
     /* max-width: 1500px;
@@ -382,9 +383,12 @@ padding: 23px;
     gap: 24px;
  }  
   .ft-info{
-    display: flex;
+  display: flex;
     gap: 89px;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
   }
   .ft-info h3{
     margin-bottom: 14px;
